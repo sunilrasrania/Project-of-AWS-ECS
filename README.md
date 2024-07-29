@@ -35,7 +35,7 @@ _go to this direc._
 
 **create a Dockerfile & and index.html**
 
-`vim Dockerfile`
+`vim Dockerfile`    **IN THIS PROJECTS I WROTE TWO DOCKER FILE WE CAN USE ONE OF THEM**
 `vim index.html`
 
 **build dokcer image & run iamge**
