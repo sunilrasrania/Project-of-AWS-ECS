@@ -1,0 +1,14 @@
+# official centos7 image
+FROM centos:centos7
+
+# apache server 
+RUN yum install httpd -y 
+
+# copy the index.html
+COPY index.html /var/www/html
+
+# specify the command to run 
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+
+# EXPOSE 
+EXPOSE 80
